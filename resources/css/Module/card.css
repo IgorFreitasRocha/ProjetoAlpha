@@ -1,0 +1,59 @@
+.card {
+    @apply bg-gray-50 py-8 antialiased md:py-12 m-5;
+}
+
+.cards {
+    @apply flex flex-wrap gap-4;
+}
+
+.cards-body {
+    @apply flex gap-2;
+}
+
+.card {
+    @apply flex-1 justify-around;
+}
+
+.card-img {
+    @apply h-56 w-full;
+}
+
+.card-img img {
+    @apply mx-auto h-full;
+}
+
+.card-title {
+    @apply pt-6;
+}
+
+.card-title a {
+    @apply text-lg font-semibold leading-tight text-gray-900 hover:underline;
+}
+
+.card-content {
+    @apply mt-2 flex items-center gap-4;
+}
+
+.card-content li {
+    @apply flex items-center gap-2;
+}
+
+.card-content p {
+    @apply text-sm font-medium text-gray-500;
+}
+
+.card-content svg {
+    @apply h-4 w-4 text-gray-500;
+}
+
+.card-price {
+    @apply mt-4 flex items-center justify-between gap-4;
+}
+
+.card-price p {
+    @apply text-xl font-extrabold leading-tight text-gray-800;
+}
+
+.card-price button {
+    @apply inline-flex items-center rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-medium text-white hover:bg-orange-800 focus:outline-none focus:ring-4 focus:ring-orange-300;
+}

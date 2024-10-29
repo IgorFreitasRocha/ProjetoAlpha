@@ -1,0 +1,26 @@
+
+@import 'Layout/nav.css';
+@import 'Layout/banner.css';
+@import 'Layout/categories.css';
+@import 'Layout/login.css';
+@import 'Layout/footer.css';
+@import 'Module/button.css';
+@import 'Module/card.css';
+@import 'Module/badge.css';
+
+
+
+
+
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

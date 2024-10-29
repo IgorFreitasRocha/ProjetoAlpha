@@ -1,0 +1,27 @@
+.banner{
+  @apply bg-white
+}
+
+.banner-container{
+  @apply gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6
+}
+
+.banner-content{
+  @apply font-light text-gray-500 sm:text-lg dark:text-gray-400
+}
+
+.banner-container h2{
+  @apply mb-4 text-6xl tracking-tight font-extrabold text-gray-800
+}
+
+.banner-container p{
+  @apply mb-8 text-xl text-gray-600
+}
+
+.banner-img{
+  @apply grid grid-cols-2 gap-4 mt-8
+}
+
+.banner-img img{
+  @apply w-full rounded-lg
+}

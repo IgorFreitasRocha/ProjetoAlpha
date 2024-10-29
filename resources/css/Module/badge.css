@@ -1,0 +1,8 @@
+.badge{
+    @apply mb-2 flex items-center justify-between gap-2;
+}
+
+.badge-span{
+    @apply bg-blue-200 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded me-2;
+    
+}

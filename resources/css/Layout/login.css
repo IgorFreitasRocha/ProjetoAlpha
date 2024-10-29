@@ -1,0 +1,4 @@
+.login-body{
+  @apply bg-gray-900 flex items-center justify-center h-screen;
+}
+
